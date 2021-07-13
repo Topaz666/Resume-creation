@@ -1,0 +1,266 @@
+.jumbotron{
+    background-color: #FFFFFF!important;
+    text-align: center;
+    height: 5px;
+    padding: 2rem 2rem !important;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.form-label{
+    color:grey;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+}
+
+.footer-btn{
+    position: relative;
+    top: 10%;
+    height: 10%;
+}
+
+.btn-add-more{
+    position: relative;
+    left: 72%;
+    border: none;
+    background-color: white;
+    color:tomato;
+    display: inline-block;
+    font-weight: 420;
+}
+
+.btn-secondary{
+    position: absolute;
+    left: 40%;
+}
+
+.btn-success{
+    position: absolute;
+    left: 40%;
+}
+
+.btn-primary{
+    position: relative;
+    left: 50%;
+}
+
+.document{
+    min-height: 861px;
+    width: 624px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: #fff 1px solid;
+    box-shadow: #e8ecf0 0 0 10px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.conf-btn{
+    margin-bottom:5%;
+}
+
+.content-name{
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight:500;
+    color: #9b9b9b;
+    line-height: 48px;
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+}
+
+.content-address{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 12px;
+}
+
+.content-summary{
+    margin-top: 40px;
+}
+
+.header{
+    font-size: 16px;
+    font-weight: normal;
+    font-variant: small-caps;
+    position: relative;
+    line-height: 22px;
+    max-width: 528px;
+    text-align: center;
+}
+
+.header::before{
+    border-top: 1px solid black;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.section-title{
+    
+    z-index: 2;
+    font-family: serif;
+    display: inline;
+    position: relative;
+    background: #FFF !important;
+    padding: 0 10px;
+}
+
+.bold-line{
+    margin-top: 2px;
+    border-bottom: grey 2px solid;
+}
+
+.first-paragraph{
+    font-size: 12px;
+    font-weight:lighter;
+}
+
+.skill-table{
+    width:100%;
+}
+
+.content-box{
+    padding-top:2%;
+    height:300px;
+    box-shadow: #9b9fa1 0 0 5px;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.listItem{
+    display: inline;
+    margin-left: 10px;
+    padding-left:1%;
+    padding-right:1%;
+    background-color:#74B72e; 
+    border-radius:6px; 
+}
+
+.ul-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.block-span{
+    display: block;
+}
+.bold-name{
+    font-weight: bold;
+    color:grey;
+}
+
+.custom-check input{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0; 
+}
+
+.custom-check-label::before{
+    position: absolute;
+    top: 12%;
+    right: 103%;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #d9d9d9;
+    content: "";
+    background-color: #fff;
+    margin-left: -20px;
+    display: block;
+}
+
+.custom-check-label{
+    position: absolute;
+    left: 10%;
+    cursor: pointer;
+}
+
+.custom-check input:checked ~.custom-check-label::before{
+    background-color: #2196F3;
+  }
+
+  .custom-check input:checked ~.custom-check-label::after{
+    display: block;
+  }
+
+  .custom-check-label::after{
+    content: "";
+    display: none;
+    position: absolute;
+    right: 107%;
+    top: 23%;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    left:15%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    z-index: 10;
+  }
+
+  .close-btn{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    z-index: 20;
+  }
+
+  .close-btn2{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    position: relative;
+    left:83%;
+    z-index: 20;
+  }
+
+  .close-btn:focus:active {
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .success-img{
+      position:relative;
+      left: 30%;
+      display: block;
+  }
+
+  .whis-form{
+      display: none;
+  }
